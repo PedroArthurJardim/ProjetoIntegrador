@@ -1,0 +1,117 @@
+PAGINA 1
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Procura de Casas</h1>
+    </header>
+    <div class="container">
+        <div class="search-container">
+            <h2>Encontre a Casa dos Seus Sonhos</h2>
+            <form>
+                <div class="form-group">
+                    <label for="location">Localização:</label>
+                    <input type="text" id="location" name="location" placeholder="Digite a cidade">
+                </div>
+                <div class="form-group">
+                    <label for="price">Faixa de Preço:</label>
+                    <input type="text" id="price" name="price" placeholder="Digite o valor máximo">
+                </div>
+                <div class="form-group">
+                    <label for="bedrooms">Número de Quartos:</label>
+                    <select id="bedrooms" name="bedrooms">
+                        <option value="">Selecione</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4+</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Buscar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <button><a class="botao" href=index.html>Voltar</a></button>
+    <footer>
+        <p>&copy; 2024 Guia Jovem. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
+CSS PAGINA 1
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    padding: 20px;
+}
+.search-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+h2 {
+    color: #4CAF50;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.form-group button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #45a049;
+}
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.botao{
+    text-align: center ;
+    text-decoration: none;
+    color: black;
+}
