@@ -10,11 +10,11 @@ PAGINA 1
 </head>
 <body>
     <header>
-        <h1>Procura de Casas</h1>
+        <h1>Guia Jovem</h1>
     </header>
     <div class="container">
         <div class="search-container">
-            <h2>Encontre a Casa dos Seus Sonhos</h2>
+            <h2></h2>
             <form>
                 <div class="form-group">
                     <label for="location">Localização:</label>
@@ -34,13 +34,40 @@ PAGINA 1
                         <option value="4">4+</option>
                     </select>
                 </div>
+                <!-- Nova funcionalidade -->
                 <div class="form-group">
-                    <button type="submit">Buscar</button>
+                    <label>Perto de transporte público?</label>
+                    <select id="public_transport" name="public_transport">
+                        <option value="">Selecione</option>
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Perto de hospitais?</label>
+                    <select id="hospitals" name="hospitals">
+                        <option value="">Selecione</option>
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Perto de metrô?</label>
+                    <select id="metro" name="metro">
+                        <option value="">Selecione</option>
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <button><a class="botao2" href="pagina2.html">Buscar</a></button>
                 </div>
             </form>
         </div>
     </div>
-    <button><a class="botao" href=index.html>Voltar</a></button>
+    
+    <button><a class="botao" href="index.html">Voltar</a></button>
+   
     <footer>
         <p>&copy; 2024 Guia Jovem. Todos os direitos reservados.</p>
     </footer>
@@ -105,13 +132,14 @@ footer {
     background-color: #4CAF50;
     color: white;
     padding: 10px;
-    text-align: center;
-    position: fixed;
     bottom: 0;
     width: 100%;
+    text-align: center;
 }
 .botao{
-    text-align: center ;
-    text-decoration: none;
-    color: black;
+    margin-bottom: 60px;
+    color: #45a049;
+}
+.botao2{
+    color: white;
 }
