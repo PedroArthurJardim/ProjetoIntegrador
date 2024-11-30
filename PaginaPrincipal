@@ -14,7 +14,7 @@ PAGINA PRINCIPAL
     <div class="container">
         <div class="intro">
             <h2>Bem-vindo ao Guia Jovem!</h2>
-            <p>Estamos aqui para ajudar você a se situar na vida e a buscar apoio durante as mudanças, como a mudança de cidade. Nossa missão é fornecer recursos e orientações para facilitar essa transição e apoiar seu crescimento pessoal.</p>
+            <p>Estamos aqui para ajudar você a se situar na vida e a buscar apoio durante as mudanças! Nossa missão é fornecer recursos e orientações para facilitar essa transição e apoiar seu crescimento pessoal.</p>
         </div>
     </div>
     <button><a class="botao" href=pagina1.html>VAMOS LÁ</a></button>
