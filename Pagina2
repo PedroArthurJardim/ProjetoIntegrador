@@ -1,0 +1,106 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Disponível</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Casa Disponível</h1>
+    </header>
+    <div class="container">
+        <!-- Imagem da Casa -->
+        <div class="house-image" style="background-image: url('https://i.mgfserv.com/640x314/aHR0cHM6Ly9pbWcub2x4LmNvbS5ici9pbWFnZXMvNjkvNjkzMjMyNDE0MDk2ODI2LmpwZw.jpg');"></div>
+
+        <!-- Detalhes da Casa -->
+        <div class="house-details">
+            <h2>Apartamento em Brasília</h2>
+            <p class="location">Localização: Asa Norte, Brasília</p>
+            <p class="price">Aluguel: R$ 2.000/mês</p>
+            <p>Quartos: 2</p>
+            <p>Proximidade: Perto de um hospital</p>
+        </div>
+    </div>
+    <div class="back-button">
+        <a href="pagina1.html">Voltar</a>
+    </div>
+    <footer>
+        <p>&copy; 2024 Guia Jovem. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
+CSS
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.house-image {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.house-details {
+    padding: 20px;
+}
+.house-details h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+.house-details p {
+    margin: 5px 0;
+}
+.house-details .price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+.location {
+    font-style: italic;
+    color: #777;
+}
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.back-button {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+}
+.back-button a {
+    text-decoration: none;
+    color: white;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.back-button a:hover {
+    background-color: #45a049;
+}
