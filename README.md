@@ -1,2 +1,5 @@
-# ProjetoIntegrador
-Projeto Integrador 2
+# Projeto Integrador III
+Indentidade
+curso
+Quem somos 
+Sobre o projeto
